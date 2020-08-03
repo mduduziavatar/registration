@@ -18,8 +18,7 @@ addRegNumberBtn.addEventListener("click", function() {
     showList(regNumber);
     setTimeout(function() {
         message.innerHTML = "";
-        message.innerHTML = "Please enter a valid registration number like CA 123654";
-    }, 2000);
+    }, 3000);
 });
 
 //Filter Total based on whats being clicked
